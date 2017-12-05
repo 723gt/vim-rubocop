@@ -12,3 +12,6 @@ vimrc
 :source /you/clone/dir/vim-rubocop/main.vim
 ```  
 
+# Use  
+vim command mode  
+`:Rubocop`
