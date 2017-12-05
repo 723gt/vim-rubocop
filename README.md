@@ -6,7 +6,9 @@ Running rubocop on vim
 $ git clone https://github.com/723gt/vim-rubocop.git
 ```
 
-``` .vimrc  
+vimrc
+
+```vim:vimrc  
 :source /you/clone/dir/vim-rubocop/main.vim
 ```  
 
