@@ -3,8 +3,8 @@
 function Rubocop()
   let fileName = expand("%")
   if fileName =~ '.rb$'
-    echo "Ok ruby file"
+    !rubocop fileName
   else
-    echo "Not ruby file"
+    echo "Not Ruby file"
   endif
 endfunction
